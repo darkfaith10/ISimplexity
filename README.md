@@ -1,4 +1,4 @@
-                                                            Event Logging with Node.js, Express, and MongoDB
+Event Logging with Node.js, Express, and MongoDB
 
 
 This repository contains code for an event logging system using Node.js, Express, and MongoDB.
