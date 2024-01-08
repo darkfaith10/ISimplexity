@@ -81,7 +81,7 @@ app.get('/trigger-event', async (req, res) => {
 });
 
 // 7. Connect to MongoDB and start the server
-mongoose.connect('mongodb://localhost:27017/eventlog')
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.dtzfcae.mongodb.net/eventlog')
   .then(() => console.log('Connected to MongoDB'))
   .catch(error => console.error('Error connecting to MongoDB:', error));
 
